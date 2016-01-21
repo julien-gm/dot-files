@@ -11,7 +11,7 @@
 [color]
 	ui    = true
 	diff  = true
-	pager = false
+	pager = true
 [color "branch"]
 	current = blue
 	local   = yellow
