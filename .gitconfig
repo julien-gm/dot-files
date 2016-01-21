@@ -1,0 +1,40 @@
+[core]
+	autocrlf = false
+	editor   = vim
+	excludesfile = ~/.gitignore
+[pager]
+	diff  = false
+	graph = false
+[help]
+	autocorrect = 10
+
+[color]
+	ui    = true
+	diff  = true
+	pager = false
+[color "branch"]
+	current = blue
+	local   = yellow
+	remote  = green
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+[alias]
+	br	= branch
+	changes	= diff --name-status
+	ci	= commit
+	co	= checkout
+	dc	= diff --cached
+	df	= diff
+	lc	= log --oneline --stat --no-merges --color
+	lgg	= log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+	lg	= log -p
+	lola	= log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lol	= log --graph --decorate --pretty=oneline --abbrev-commit
+	ls	= ls-files
+	me	= merge --no-ff
+	st	= status
+	undo	= reset --soft HEAD^
+
