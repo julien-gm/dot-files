@@ -2,6 +2,9 @@
 	autocrlf = false
 	editor   = vim
 	excludesfile = ~/.gitignore
+[user]
+	email = julien-gm@users.noreply.github.com
+
 [pager]
 	diff  = false
 	graph = false
